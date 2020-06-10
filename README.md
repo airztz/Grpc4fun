@@ -1,6 +1,9 @@
-go mod init github.com/airztz/Grpc4fun
+# Grpc4fun
 
-go build servers/hello/main.go
+```
+go mod init github.com/airztz/Grpc4fun
+go mod vendor
+```
 
 1. Make sure the checkbox 
 beneath: Settings/Go/Go Modul (vgo) is enabled:
@@ -13,4 +16,3 @@ and make sure both checkboxes are checked:
 
 - [X] Use GOPATH thats defined in system environment 
 - [X] Index entire GOPATH
-

@@ -2,16 +2,16 @@ package main
 
 import (
 	"context"
+	"github.com/airztz/Protobuf4fun/services"
+	"github.com/airztz/Protobuf4fun/types"
+	"google.golang.org/grpc"
 	"log"
 	"os"
 	"time"
-	"google.golang.org/grpc"
-	"github.com/airztz/Protobuf4fun/services"
-	"github.com/airztz/Protobuf4fun/types"
 )
 
 const (
-	address     = "localhost:50051"
+	address = "localhost:50051"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-# github.com/airztz/Protobuf4fun v0.0.0-20200609235930-01e383014c15
+# github.com/airztz/Protobuf4fun v0.0.0-20200610010224-67c5846edac6
 github.com/airztz/Protobuf4fun/services
 github.com/airztz/Protobuf4fun/types
 # github.com/golang/protobuf v1.4.2

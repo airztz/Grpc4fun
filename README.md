@@ -2,6 +2,7 @@
 
 ```
 go mod init github.com/airztz/Grpc4fun
+go get -u github.com/airztz/Protobuf4fun@master
 go mod vendor
 ```
 

@@ -11,6 +11,15 @@ github.com/airztz/Protobuf4fun v0.0.0-20200609235930-01e383014c15 h1:SP/tyx/Qc4R
 github.com/airztz/Protobuf4fun v0.0.0-20200609235930-01e383014c15/go.mod h1:uCpVI5QQ+b5Pq8QLHj9I2k7kpl8RSQNzIGzmUDnK4VE=
 github.com/airztz/Protobuf4fun v0.0.0-20200610010224-67c5846edac6 h1:6GHe+tJ8ugGt0vNShhBSe+Rw9f3oLrmH9WJJYXBPn90=
 github.com/airztz/Protobuf4fun v0.0.0-20200610010224-67c5846edac6/go.mod h1:uCpVI5QQ+b5Pq8QLHj9I2k7kpl8RSQNzIGzmUDnK4VE=
+github.com/airztz/Protobuf4fun v0.0.0-20200611024943-44628528223b h1:9EHEThOYoFHOQb9e1ada0DT2/OEUipOevXmJh7km5fs=
+github.com/airztz/Protobuf4fun v0.0.0-20200611024943-44628528223b/go.mod h1:m7GJ02gUn04bknAB2dldfyVQT4Id8PdSJaZxKcI6dGo=
+github.com/airztz/Protobuf4fun v0.0.0-20200611031030-9ad594cb2e91 h1:hMklorANX96rNIBNmQMxSOMYOmyTCMFJbJYXZkawlL0=
+github.com/airztz/Protobuf4fun v0.0.0-20200611031030-9ad594cb2e91/go.mod h1:m7GJ02gUn04bknAB2dldfyVQT4Id8PdSJaZxKcI6dGo=
+github.com/airztz/Protobuf4fun v0.0.0-20200611032840-0272e0044e88 h1:O0oz2eJUfaMeXrXSYuWF8wJWZ/3yLMUbEaL+QZFMm00=
+github.com/airztz/Protobuf4fun v0.0.0-20200611034719-46f8b3b6943e h1:hFnpdMcUHyU4UimJPjdXyiJ3OMG8PRUXq0WdcSsxhmE=
+github.com/airztz/Protobuf4fun v0.0.0-20200611034719-46f8b3b6943e/go.mod h1:m7GJ02gUn04bknAB2dldfyVQT4Id8PdSJaZxKcI6dGo=
+github.com/airztz/Protobuf4fun/grpc v0.0.0-20200611032840-0272e0044e88 h1:+r9XqfhPe/ryLP/TsooHqvAknYn9KHVIljPBHMUQLX0=
+github.com/airztz/Protobuf4fun/grpc v0.0.0-20200611032840-0272e0044e88/go.mod h1:eW4z4/Ts9ZKkRtq1mojvlz+Olc3dAJ0rH0SMyWKIw5o=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=

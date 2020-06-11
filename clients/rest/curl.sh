@@ -1,0 +1,1 @@
+curl -k -v "http://localhost:8081/hello" -d '{"name": "joy"}'

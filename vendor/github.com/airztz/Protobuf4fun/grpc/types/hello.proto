@@ -4,8 +4,8 @@ package types;
 
 option go_package = "github.com/airztz/Protobuf4fun/grpc/types";
 option java_multiple_files = true;
-option java_package = "com.joy.grpc.types.hello";
-option java_outer_classname = "HelloProto";
+option java_package = "com.joy.grpc.types";
+option java_outer_classname = "HelloType";
 
 // The request message containing the user's name.
 message HelloRequest {

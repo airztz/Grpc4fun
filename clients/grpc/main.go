@@ -4,9 +4,11 @@ import (
 	"context"
 	"github.com/airztz/Protobuf4fun/grpc/services"
 	"github.com/airztz/Protobuf4fun/grpc/types"
+	"github.com/golang/protobuf/proto"
+	"github.com/golang/protobuf/ptypes/any"
+	"github.com/golang/protobuf/ptypes/timestamp"
 	"google.golang.org/grpc"
 	"log"
-	"os"
 	"time"
 )
 
@@ -24,15 +26,23 @@ func main() {
 	client := services.NewHelloClient(conn)
 
 	// Contact the server and print out its response.
-	name := "Joy"
-	if len(os.Args) > 1 {
-		name = os.Args[1]
-	}
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	defer cancel()
-	r, err := client.SayHello(ctx, &types.HelloRequest{Name: name})
+	t1 := &timestamp.Timestamp{
+		Seconds: 5, // easy to verify
+		Nanos:   6, // easy to verify
+	}
+	//t2 := &
+	serialized, err := proto.Marshal(t1)
+	if err != nil {
+		log.Fatal("could not serialize timestamp")
+	}
+	r, err := client.SayHello(ctx, &types.HelloRequest{ComplexFeatureValue: &any.Any{
+		TypeUrl: proto.MessageName(t1),
+		Value:   serialized,
+	}})
 	if err != nil {
 		log.Fatalf("could not greet: %v", err)
 	}
-	log.Printf("Greeting: %s", r.GetMessage())
+	log.Printf("Greeting: %s", r.ComplexFeatureValue)
 }

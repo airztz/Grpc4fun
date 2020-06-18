@@ -20,8 +20,8 @@ type server struct {
 
 // SayHello implements services.HelloServer
 func (s *server) SayHello(ctx context.Context, request *types.HelloRequest) (*types.HelloReply, error) {
-	log.Printf("Received: %v", request.GetName())
-	return &types.HelloReply{Message: "Hello " + request.GetName()}, nil
+	log.Printf("Received: %v", request.GetComplexFeatureValue())
+	return &types.HelloReply{ComplexFeatureValue: request.GetComplexFeatureValue()}, nil
 }
 
 func main() {

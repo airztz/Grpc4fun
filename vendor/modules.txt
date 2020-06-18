@@ -1,4 +1,4 @@
-# github.com/airztz/Protobuf4fun v0.0.0-20200611055445-cebd4838804d
+# github.com/airztz/Protobuf4fun v0.0.0-20200617172911-6808032e158c
 github.com/airztz/Protobuf4fun/grpc/services
 github.com/airztz/Protobuf4fun/grpc/types
 github.com/airztz/Protobuf4fun/rest/services
@@ -11,6 +11,7 @@ github.com/golang/protobuf/protoc-gen-go/descriptor
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/ptypes/struct
 github.com/golang/protobuf/ptypes/timestamp
 github.com/golang/protobuf/ptypes/wrappers
 # github.com/grpc-ecosystem/grpc-gateway v1.14.6
@@ -112,5 +113,6 @@ google.golang.org/protobuf/types/descriptorpb
 google.golang.org/protobuf/types/known/anypb
 google.golang.org/protobuf/types/known/durationpb
 google.golang.org/protobuf/types/known/fieldmaskpb
+google.golang.org/protobuf/types/known/structpb
 google.golang.org/protobuf/types/known/timestamppb
 google.golang.org/protobuf/types/known/wrapperspb
